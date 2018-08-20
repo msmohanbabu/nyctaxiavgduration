@@ -140,7 +140,7 @@ public class RunAverageDuration implements Serializable {
 			throws NoSuchFieldException {
 
 		Dataset<Row> finalData = filterDF.groupBy("PICKUPLOCATION")
-				.agg(functions.avg(filterDF.col("DURATION").as("AVERAGE")))
+				.agg(functions.avg(filterDF.col("DURATION").as("AVERAGE(ms)")))
 				.orderBy("PICKUPLOCATION");
 
 		return finalData;
