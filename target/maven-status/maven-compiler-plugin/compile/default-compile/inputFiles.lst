@@ -1,0 +1,8 @@
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/AverageTuple.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/SparkKeyValue.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/CommonUtils.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/SparkConnection.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/Duration.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/DataSchema.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/RunAverageDuration.java
+/home/cloudera/Desktop/Soban/taxi.duration/src/main/java/com/nyc/taxi/duration/TaxiPickUpLocationAvgRun.java
