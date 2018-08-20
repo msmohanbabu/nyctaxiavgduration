@@ -1,0 +1,1004 @@
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 71.0 in stage 3.0 (TID 310) in 42 ms on localhost (105/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:22 INFO Executor: Finished task 74.0 in stage 3.0 (TID 312). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 78.0 in stage 3.0 (TID 314, localhost, partition 78, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 74.0 in stage 3.0 (TID 312) in 24 ms on localhost (106/200)
+18/08/20 07:08:22 INFO Executor: Running task 78.0 in stage 3.0 (TID 314)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 75.0 in stage 3.0 (TID 313). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 79.0 in stage 3.0 (TID 315, localhost, partition 79, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 75.0 in stage 3.0 (TID 313) in 29 ms on localhost (107/200)
+18/08/20 07:08:22 INFO Executor: Running task 79.0 in stage 3.0 (TID 315)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 78.0 in stage 3.0 (TID 314). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 80.0 in stage 3.0 (TID 316, localhost, partition 80, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 78.0 in stage 3.0 (TID 314) in 26 ms on localhost (108/200)
+18/08/20 07:08:22 INFO Executor: Running task 80.0 in stage 3.0 (TID 316)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 4 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 79.0 in stage 3.0 (TID 315). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 81.0 in stage 3.0 (TID 317, localhost, partition 81, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 81.0 in stage 3.0 (TID 317)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 79.0 in stage 3.0 (TID 315) in 26 ms on localhost (109/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 81.0 in stage 3.0 (TID 317). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 80.0 in stage 3.0 (TID 316). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 82.0 in stage 3.0 (TID 318, localhost, partition 82, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 80.0 in stage 3.0 (TID 316) in 32 ms on localhost (110/200)
+18/08/20 07:08:22 INFO Executor: Running task 82.0 in stage 3.0 (TID 318)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 84.0 in stage 3.0 (TID 319, localhost, partition 84, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 81.0 in stage 3.0 (TID 317) in 20 ms on localhost (111/200)
+18/08/20 07:08:22 INFO Executor: Running task 84.0 in stage 3.0 (TID 319)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 82.0 in stage 3.0 (TID 318). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 85.0 in stage 3.0 (TID 320, localhost, partition 85, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 82.0 in stage 3.0 (TID 318) in 23 ms on localhost (112/200)
+18/08/20 07:08:22 INFO Executor: Running task 85.0 in stage 3.0 (TID 320)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 84.0 in stage 3.0 (TID 319). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 87.0 in stage 3.0 (TID 321, localhost, partition 87, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 87.0 in stage 3.0 (TID 321)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 84.0 in stage 3.0 (TID 319) in 28 ms on localhost (113/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:22 INFO Executor: Finished task 85.0 in stage 3.0 (TID 320). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 88.0 in stage 3.0 (TID 322, localhost, partition 88, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 85.0 in stage 3.0 (TID 320) in 24 ms on localhost (114/200)
+18/08/20 07:08:22 INFO Executor: Running task 88.0 in stage 3.0 (TID 322)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 87.0 in stage 3.0 (TID 321). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 89.0 in stage 3.0 (TID 323, localhost, partition 89, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 87.0 in stage 3.0 (TID 321) in 28 ms on localhost (115/200)
+18/08/20 07:08:22 INFO Executor: Running task 89.0 in stage 3.0 (TID 323)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 89.0 in stage 3.0 (TID 323). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 88.0 in stage 3.0 (TID 322). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 91.0 in stage 3.0 (TID 324, localhost, partition 91, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 88.0 in stage 3.0 (TID 322) in 30 ms on localhost (116/200)
+18/08/20 07:08:22 INFO Executor: Running task 91.0 in stage 3.0 (TID 324)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 92.0 in stage 3.0 (TID 325, localhost, partition 92, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 92.0 in stage 3.0 (TID 325)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 89.0 in stage 3.0 (TID 323) in 24 ms on localhost (117/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:22 INFO Executor: Finished task 91.0 in stage 3.0 (TID 324). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 93.0 in stage 3.0 (TID 326, localhost, partition 93, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 91.0 in stage 3.0 (TID 324) in 23 ms on localhost (118/200)
+18/08/20 07:08:22 INFO Executor: Running task 93.0 in stage 3.0 (TID 326)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 92.0 in stage 3.0 (TID 325). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 96.0 in stage 3.0 (TID 327, localhost, partition 96, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 92.0 in stage 3.0 (TID 325) in 33 ms on localhost (119/200)
+18/08/20 07:08:22 INFO Executor: Running task 96.0 in stage 3.0 (TID 327)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 93.0 in stage 3.0 (TID 326). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 97.0 in stage 3.0 (TID 328, localhost, partition 97, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 93.0 in stage 3.0 (TID 326) in 27 ms on localhost (120/200)
+18/08/20 07:08:22 INFO Executor: Running task 97.0 in stage 3.0 (TID 328)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:22 INFO Executor: Finished task 96.0 in stage 3.0 (TID 327). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 99.0 in stage 3.0 (TID 329, localhost, partition 99, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 99.0 in stage 3.0 (TID 329)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 96.0 in stage 3.0 (TID 327) in 24 ms on localhost (121/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 97.0 in stage 3.0 (TID 328). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 101.0 in stage 3.0 (TID 330, localhost, partition 101, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 97.0 in stage 3.0 (TID 328) in 33 ms on localhost (122/200)
+18/08/20 07:08:22 INFO Executor: Running task 101.0 in stage 3.0 (TID 330)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 99.0 in stage 3.0 (TID 329). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 102.0 in stage 3.0 (TID 331, localhost, partition 102, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 99.0 in stage 3.0 (TID 329) in 25 ms on localhost (123/200)
+18/08/20 07:08:22 INFO Executor: Running task 102.0 in stage 3.0 (TID 331)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:22 INFO Executor: Finished task 101.0 in stage 3.0 (TID 330). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 103.0 in stage 3.0 (TID 332, localhost, partition 103, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 101.0 in stage 3.0 (TID 330) in 24 ms on localhost (124/200)
+18/08/20 07:08:22 INFO Executor: Running task 103.0 in stage 3.0 (TID 332)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 102.0 in stage 3.0 (TID 331). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 104.0 in stage 3.0 (TID 333, localhost, partition 104, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 104.0 in stage 3.0 (TID 333)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 102.0 in stage 3.0 (TID 331) in 27 ms on localhost (125/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 103.0 in stage 3.0 (TID 332). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 105.0 in stage 3.0 (TID 334, localhost, partition 105, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 103.0 in stage 3.0 (TID 332) in 18 ms on localhost (126/200)
+18/08/20 07:08:22 INFO Executor: Running task 105.0 in stage 3.0 (TID 334)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 7 ms
+18/08/20 07:08:22 INFO Executor: Finished task 104.0 in stage 3.0 (TID 333). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 107.0 in stage 3.0 (TID 335, localhost, partition 107, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 104.0 in stage 3.0 (TID 333) in 28 ms on localhost (127/200)
+18/08/20 07:08:22 INFO Executor: Running task 107.0 in stage 3.0 (TID 335)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 107.0 in stage 3.0 (TID 335). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 105.0 in stage 3.0 (TID 334). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 108.0 in stage 3.0 (TID 336, localhost, partition 108, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 107.0 in stage 3.0 (TID 335) in 14 ms on localhost (128/200)
+18/08/20 07:08:22 INFO Executor: Running task 108.0 in stage 3.0 (TID 336)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 111.0 in stage 3.0 (TID 337, localhost, partition 111, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 111.0 in stage 3.0 (TID 337)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 105.0 in stage 3.0 (TID 334) in 42 ms on localhost (129/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 111.0 in stage 3.0 (TID 337). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 112.0 in stage 3.0 (TID 338, localhost, partition 112, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 111.0 in stage 3.0 (TID 337) in 16 ms on localhost (130/200)
+18/08/20 07:08:22 INFO Executor: Running task 112.0 in stage 3.0 (TID 338)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 5 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 108.0 in stage 3.0 (TID 336). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 113.0 in stage 3.0 (TID 339, localhost, partition 113, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 108.0 in stage 3.0 (TID 336) in 34 ms on localhost (131/200)
+18/08/20 07:08:22 INFO Executor: Running task 113.0 in stage 3.0 (TID 339)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:22 INFO Executor: Finished task 112.0 in stage 3.0 (TID 338). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 114.0 in stage 3.0 (TID 340, localhost, partition 114, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 112.0 in stage 3.0 (TID 338) in 22 ms on localhost (132/200)
+18/08/20 07:08:22 INFO Executor: Running task 114.0 in stage 3.0 (TID 340)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 113.0 in stage 3.0 (TID 339). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 115.0 in stage 3.0 (TID 341, localhost, partition 115, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 115.0 in stage 3.0 (TID 341)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 113.0 in stage 3.0 (TID 339) in 28 ms on localhost (133/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 114.0 in stage 3.0 (TID 340). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 116.0 in stage 3.0 (TID 342, localhost, partition 116, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 114.0 in stage 3.0 (TID 340) in 32 ms on localhost (134/200)
+18/08/20 07:08:22 INFO Executor: Running task 116.0 in stage 3.0 (TID 342)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 115.0 in stage 3.0 (TID 341). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 116.0 in stage 3.0 (TID 342). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 117.0 in stage 3.0 (TID 343, localhost, partition 117, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 115.0 in stage 3.0 (TID 341) in 32 ms on localhost (135/200)
+18/08/20 07:08:22 INFO Executor: Running task 117.0 in stage 3.0 (TID 343)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 121.0 in stage 3.0 (TID 344, localhost, partition 121, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 116.0 in stage 3.0 (TID 342) in 24 ms on localhost (136/200)
+18/08/20 07:08:22 INFO Executor: Running task 121.0 in stage 3.0 (TID 344)
+18/08/20 07:08:22 INFO Executor: Finished task 117.0 in stage 3.0 (TID 343). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 122.0 in stage 3.0 (TID 345, localhost, partition 122, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 122.0 in stage 3.0 (TID 345)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 117.0 in stage 3.0 (TID 343) in 22 ms on localhost (137/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 122.0 in stage 3.0 (TID 345). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 121.0 in stage 3.0 (TID 344). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 123.0 in stage 3.0 (TID 346, localhost, partition 123, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 122.0 in stage 3.0 (TID 345) in 17 ms on localhost (138/200)
+18/08/20 07:08:22 INFO Executor: Running task 123.0 in stage 3.0 (TID 346)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 124.0 in stage 3.0 (TID 347, localhost, partition 124, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 121.0 in stage 3.0 (TID 344) in 38 ms on localhost (139/200)
+18/08/20 07:08:22 INFO Executor: Running task 124.0 in stage 3.0 (TID 347)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO Executor: Finished task 123.0 in stage 3.0 (TID 346). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO Executor: Finished task 124.0 in stage 3.0 (TID 347). 3185 bytes result sent to driver
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 126.0 in stage 3.0 (TID 348, localhost, partition 126, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 124.0 in stage 3.0 (TID 347) in 23 ms on localhost (140/200)
+18/08/20 07:08:22 INFO Executor: Running task 126.0 in stage 3.0 (TID 348)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:22 INFO TaskSetManager: Starting task 127.0 in stage 3.0 (TID 349, localhost, partition 127, ANY, 5272 bytes)
+18/08/20 07:08:22 INFO Executor: Running task 127.0 in stage 3.0 (TID 349)
+18/08/20 07:08:22 INFO TaskSetManager: Finished task 123.0 in stage 3.0 (TID 346) in 44 ms on localhost (141/200)
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:22 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 126.0 in stage 3.0 (TID 348). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 128.0 in stage 3.0 (TID 350, localhost, partition 128, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 126.0 in stage 3.0 (TID 348) in 26 ms on localhost (142/200)
+18/08/20 07:08:23 INFO Executor: Running task 128.0 in stage 3.0 (TID 350)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 127.0 in stage 3.0 (TID 349). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 129.0 in stage 3.0 (TID 351, localhost, partition 129, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 127.0 in stage 3.0 (TID 349) in 27 ms on localhost (143/200)
+18/08/20 07:08:23 INFO Executor: Running task 129.0 in stage 3.0 (TID 351)
+18/08/20 07:08:23 INFO Executor: Finished task 128.0 in stage 3.0 (TID 350). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 130.0 in stage 3.0 (TID 352, localhost, partition 130, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 128.0 in stage 3.0 (TID 350) in 17 ms on localhost (144/200)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Running task 130.0 in stage 3.0 (TID 352)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 7 ms
+18/08/20 07:08:23 INFO Executor: Finished task 129.0 in stage 3.0 (TID 351). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 131.0 in stage 3.0 (TID 353, localhost, partition 131, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO Executor: Running task 131.0 in stage 3.0 (TID 353)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 129.0 in stage 3.0 (TID 351) in 22 ms on localhost (145/200)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 131.0 in stage 3.0 (TID 353). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 130.0 in stage 3.0 (TID 352). 3272 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 132.0 in stage 3.0 (TID 354, localhost, partition 132, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 131.0 in stage 3.0 (TID 353) in 20 ms on localhost (146/200)
+18/08/20 07:08:23 INFO Executor: Running task 132.0 in stage 3.0 (TID 354)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 134.0 in stage 3.0 (TID 355, localhost, partition 134, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 130.0 in stage 3.0 (TID 352) in 48 ms on localhost (147/200)
+18/08/20 07:08:23 INFO Executor: Running task 134.0 in stage 3.0 (TID 355)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 132.0 in stage 3.0 (TID 354). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 134.0 in stage 3.0 (TID 355). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 135.0 in stage 3.0 (TID 356, localhost, partition 135, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 132.0 in stage 3.0 (TID 354) in 28 ms on localhost (148/200)
+18/08/20 07:08:23 INFO Executor: Running task 135.0 in stage 3.0 (TID 356)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 137.0 in stage 3.0 (TID 357, localhost, partition 137, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO Executor: Running task 137.0 in stage 3.0 (TID 357)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 134.0 in stage 3.0 (TID 355) in 24 ms on localhost (149/200)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:23 INFO Executor: Finished task 137.0 in stage 3.0 (TID 357). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 135.0 in stage 3.0 (TID 356). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 138.0 in stage 3.0 (TID 358, localhost, partition 138, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 137.0 in stage 3.0 (TID 357) in 19 ms on localhost (150/200)
+18/08/20 07:08:23 INFO Executor: Running task 138.0 in stage 3.0 (TID 358)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 139.0 in stage 3.0 (TID 359, localhost, partition 139, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 135.0 in stage 3.0 (TID 356) in 35 ms on localhost (151/200)
+18/08/20 07:08:23 INFO Executor: Running task 139.0 in stage 3.0 (TID 359)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 139.0 in stage 3.0 (TID 359). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 138.0 in stage 3.0 (TID 358). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 140.0 in stage 3.0 (TID 360, localhost, partition 140, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 139.0 in stage 3.0 (TID 359) in 15 ms on localhost (152/200)
+18/08/20 07:08:23 INFO Executor: Running task 140.0 in stage 3.0 (TID 360)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 141.0 in stage 3.0 (TID 361, localhost, partition 141, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO Executor: Running task 141.0 in stage 3.0 (TID 361)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 138.0 in stage 3.0 (TID 358) in 32 ms on localhost (153/200)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 140.0 in stage 3.0 (TID 360). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 142.0 in stage 3.0 (TID 362, localhost, partition 142, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 140.0 in stage 3.0 (TID 360) in 21 ms on localhost (154/200)
+18/08/20 07:08:23 INFO Executor: Running task 142.0 in stage 3.0 (TID 362)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 141.0 in stage 3.0 (TID 361). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 143.0 in stage 3.0 (TID 363, localhost, partition 143, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 141.0 in stage 3.0 (TID 361) in 31 ms on localhost (155/200)
+18/08/20 07:08:23 INFO Executor: Running task 143.0 in stage 3.0 (TID 363)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 142.0 in stage 3.0 (TID 362). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 144.0 in stage 3.0 (TID 364, localhost, partition 144, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 142.0 in stage 3.0 (TID 362) in 27 ms on localhost (156/200)
+18/08/20 07:08:23 INFO Executor: Running task 144.0 in stage 3.0 (TID 364)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:23 INFO Executor: Finished task 143.0 in stage 3.0 (TID 363). 3272 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 145.0 in stage 3.0 (TID 365, localhost, partition 145, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 143.0 in stage 3.0 (TID 363) in 26 ms on localhost (157/200)
+18/08/20 07:08:23 INFO Executor: Running task 145.0 in stage 3.0 (TID 365)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 144.0 in stage 3.0 (TID 364). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 145.0 in stage 3.0 (TID 365). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 146.0 in stage 3.0 (TID 366, localhost, partition 146, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 144.0 in stage 3.0 (TID 364) in 39 ms on localhost (158/200)
+18/08/20 07:08:23 INFO Executor: Running task 146.0 in stage 3.0 (TID 366)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 149.0 in stage 3.0 (TID 367, localhost, partition 149, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 145.0 in stage 3.0 (TID 365) in 30 ms on localhost (159/200)
+18/08/20 07:08:23 INFO Executor: Running task 149.0 in stage 3.0 (TID 367)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 149.0 in stage 3.0 (TID 367). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 152.0 in stage 3.0 (TID 368, localhost, partition 152, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 149.0 in stage 3.0 (TID 367) in 12 ms on localhost (160/200)
+18/08/20 07:08:23 INFO Executor: Running task 152.0 in stage 3.0 (TID 368)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 146.0 in stage 3.0 (TID 366). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 153.0 in stage 3.0 (TID 369, localhost, partition 153, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 146.0 in stage 3.0 (TID 366) in 33 ms on localhost (161/200)
+18/08/20 07:08:23 INFO Executor: Running task 153.0 in stage 3.0 (TID 369)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 152.0 in stage 3.0 (TID 368). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 154.0 in stage 3.0 (TID 370, localhost, partition 154, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 152.0 in stage 3.0 (TID 368) in 26 ms on localhost (162/200)
+18/08/20 07:08:23 INFO Executor: Running task 154.0 in stage 3.0 (TID 370)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 153.0 in stage 3.0 (TID 369). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 155.0 in stage 3.0 (TID 371, localhost, partition 155, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 153.0 in stage 3.0 (TID 369) in 33 ms on localhost (163/200)
+18/08/20 07:08:23 INFO Executor: Running task 155.0 in stage 3.0 (TID 371)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 154.0 in stage 3.0 (TID 370). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 156.0 in stage 3.0 (TID 372, localhost, partition 156, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 154.0 in stage 3.0 (TID 370) in 30 ms on localhost (164/200)
+18/08/20 07:08:23 INFO Executor: Running task 156.0 in stage 3.0 (TID 372)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:23 INFO Executor: Finished task 155.0 in stage 3.0 (TID 371). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 157.0 in stage 3.0 (TID 373, localhost, partition 157, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 155.0 in stage 3.0 (TID 371) in 32 ms on localhost (165/200)
+18/08/20 07:08:23 INFO Executor: Running task 157.0 in stage 3.0 (TID 373)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 157.0 in stage 3.0 (TID 373). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 156.0 in stage 3.0 (TID 372). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 158.0 in stage 3.0 (TID 374, localhost, partition 158, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 157.0 in stage 3.0 (TID 373) in 16 ms on localhost (166/200)
+18/08/20 07:08:23 INFO Executor: Running task 158.0 in stage 3.0 (TID 374)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 159.0 in stage 3.0 (TID 375, localhost, partition 159, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 156.0 in stage 3.0 (TID 372) in 46 ms on localhost (167/200)
+18/08/20 07:08:23 INFO Executor: Running task 159.0 in stage 3.0 (TID 375)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 159.0 in stage 3.0 (TID 375). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 161.0 in stage 3.0 (TID 376, localhost, partition 161, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 159.0 in stage 3.0 (TID 375) in 17 ms on localhost (168/200)
+18/08/20 07:08:23 INFO Executor: Running task 161.0 in stage 3.0 (TID 376)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:23 INFO Executor: Finished task 158.0 in stage 3.0 (TID 374). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 162.0 in stage 3.0 (TID 377, localhost, partition 162, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 158.0 in stage 3.0 (TID 374) in 38 ms on localhost (169/200)
+18/08/20 07:08:23 INFO Executor: Running task 162.0 in stage 3.0 (TID 377)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 3 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 161.0 in stage 3.0 (TID 376). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 163.0 in stage 3.0 (TID 378, localhost, partition 163, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 161.0 in stage 3.0 (TID 376) in 32 ms on localhost (170/200)
+18/08/20 07:08:23 INFO Executor: Running task 163.0 in stage 3.0 (TID 378)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 162.0 in stage 3.0 (TID 377). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 163.0 in stage 3.0 (TID 378). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 164.0 in stage 3.0 (TID 379, localhost, partition 164, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 162.0 in stage 3.0 (TID 377) in 32 ms on localhost (171/200)
+18/08/20 07:08:23 INFO Executor: Running task 164.0 in stage 3.0 (TID 379)
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 165.0 in stage 3.0 (TID 380, localhost, partition 165, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 163.0 in stage 3.0 (TID 378) in 19 ms on localhost (172/200)
+18/08/20 07:08:23 INFO Executor: Running task 165.0 in stage 3.0 (TID 380)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 13 ms
+18/08/20 07:08:23 INFO Executor: Finished task 165.0 in stage 3.0 (TID 380). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 166.0 in stage 3.0 (TID 381, localhost, partition 166, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 165.0 in stage 3.0 (TID 380) in 21 ms on localhost (173/200)
+18/08/20 07:08:23 INFO Executor: Running task 166.0 in stage 3.0 (TID 381)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 166.0 in stage 3.0 (TID 381). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 167.0 in stage 3.0 (TID 382, localhost, partition 167, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 166.0 in stage 3.0 (TID 381) in 15 ms on localhost (174/200)
+18/08/20 07:08:23 INFO Executor: Running task 167.0 in stage 3.0 (TID 382)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 164.0 in stage 3.0 (TID 379). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 168.0 in stage 3.0 (TID 383, localhost, partition 168, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 164.0 in stage 3.0 (TID 379) in 54 ms on localhost (175/200)
+18/08/20 07:08:23 INFO Executor: Running task 168.0 in stage 3.0 (TID 383)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 12 ms
+18/08/20 07:08:23 INFO Executor: Finished task 167.0 in stage 3.0 (TID 382). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 169.0 in stage 3.0 (TID 384, localhost, partition 169, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 167.0 in stage 3.0 (TID 382) in 38 ms on localhost (176/200)
+18/08/20 07:08:23 INFO Executor: Running task 169.0 in stage 3.0 (TID 384)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 169.0 in stage 3.0 (TID 384). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 170.0 in stage 3.0 (TID 385, localhost, partition 170, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 169.0 in stage 3.0 (TID 384) in 10 ms on localhost (177/200)
+18/08/20 07:08:23 INFO Executor: Running task 170.0 in stage 3.0 (TID 385)
+18/08/20 07:08:23 INFO Executor: Finished task 168.0 in stage 3.0 (TID 383). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 171.0 in stage 3.0 (TID 386, localhost, partition 171, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 168.0 in stage 3.0 (TID 383) in 45 ms on localhost (178/200)
+18/08/20 07:08:23 INFO Executor: Running task 171.0 in stage 3.0 (TID 386)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 170.0 in stage 3.0 (TID 385). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 173.0 in stage 3.0 (TID 387, localhost, partition 173, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 170.0 in stage 3.0 (TID 385) in 27 ms on localhost (179/200)
+18/08/20 07:08:23 INFO Executor: Running task 173.0 in stage 3.0 (TID 387)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 10 ms
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 171.0 in stage 3.0 (TID 386). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 175.0 in stage 3.0 (TID 388, localhost, partition 175, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 171.0 in stage 3.0 (TID 386) in 38 ms on localhost (180/200)
+18/08/20 07:08:23 INFO Executor: Running task 175.0 in stage 3.0 (TID 388)
+18/08/20 07:08:23 INFO Executor: Finished task 173.0 in stage 3.0 (TID 387). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 176.0 in stage 3.0 (TID 389, localhost, partition 176, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 173.0 in stage 3.0 (TID 387) in 31 ms on localhost (181/200)
+18/08/20 07:08:23 INFO Executor: Running task 176.0 in stage 3.0 (TID 389)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 175.0 in stage 3.0 (TID 388). 3272 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 177.0 in stage 3.0 (TID 390, localhost, partition 177, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 175.0 in stage 3.0 (TID 388) in 26 ms on localhost (182/200)
+18/08/20 07:08:23 INFO Executor: Running task 177.0 in stage 3.0 (TID 390)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 177.0 in stage 3.0 (TID 390). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 176.0 in stage 3.0 (TID 389). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 178.0 in stage 3.0 (TID 391, localhost, partition 178, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 177.0 in stage 3.0 (TID 390) in 30 ms on localhost (183/200)
+18/08/20 07:08:23 INFO Executor: Running task 178.0 in stage 3.0 (TID 391)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 178.0 in stage 3.0 (TID 391). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 179.0 in stage 3.0 (TID 392, localhost, partition 179, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 176.0 in stage 3.0 (TID 389) in 60 ms on localhost (184/200)
+18/08/20 07:08:23 INFO Executor: Running task 179.0 in stage 3.0 (TID 392)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 180.0 in stage 3.0 (TID 393, localhost, partition 180, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 178.0 in stage 3.0 (TID 391) in 23 ms on localhost (185/200)
+18/08/20 07:08:23 INFO Executor: Running task 180.0 in stage 3.0 (TID 393)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 180.0 in stage 3.0 (TID 393). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 181.0 in stage 3.0 (TID 394, localhost, partition 181, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 180.0 in stage 3.0 (TID 393) in 17 ms on localhost (186/200)
+18/08/20 07:08:23 INFO Executor: Running task 181.0 in stage 3.0 (TID 394)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 179.0 in stage 3.0 (TID 392). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 183.0 in stage 3.0 (TID 395, localhost, partition 183, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 179.0 in stage 3.0 (TID 392) in 39 ms on localhost (187/200)
+18/08/20 07:08:23 INFO Executor: Running task 183.0 in stage 3.0 (TID 395)
+18/08/20 07:08:23 INFO Executor: Finished task 181.0 in stage 3.0 (TID 394). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 186.0 in stage 3.0 (TID 396, localhost, partition 186, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 181.0 in stage 3.0 (TID 394) in 25 ms on localhost (188/200)
+18/08/20 07:08:23 INFO Executor: Running task 186.0 in stage 3.0 (TID 396)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 183.0 in stage 3.0 (TID 395). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 187.0 in stage 3.0 (TID 397, localhost, partition 187, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 183.0 in stage 3.0 (TID 395) in 38 ms on localhost (189/200)
+18/08/20 07:08:23 INFO Executor: Running task 187.0 in stage 3.0 (TID 397)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 186.0 in stage 3.0 (TID 396). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 188.0 in stage 3.0 (TID 398, localhost, partition 188, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 186.0 in stage 3.0 (TID 396) in 33 ms on localhost (190/200)
+18/08/20 07:08:23 INFO Executor: Running task 188.0 in stage 3.0 (TID 398)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:23 INFO Executor: Finished task 187.0 in stage 3.0 (TID 397). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 189.0 in stage 3.0 (TID 399, localhost, partition 189, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 187.0 in stage 3.0 (TID 397) in 23 ms on localhost (191/200)
+18/08/20 07:08:23 INFO Executor: Running task 189.0 in stage 3.0 (TID 399)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:23 INFO Executor: Finished task 189.0 in stage 3.0 (TID 399). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 188.0 in stage 3.0 (TID 398). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 190.0 in stage 3.0 (TID 400, localhost, partition 190, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 189.0 in stage 3.0 (TID 399) in 20 ms on localhost (192/200)
+18/08/20 07:08:23 INFO Executor: Running task 190.0 in stage 3.0 (TID 400)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 191.0 in stage 3.0 (TID 401, localhost, partition 191, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 188.0 in stage 3.0 (TID 398) in 41 ms on localhost (193/200)
+18/08/20 07:08:23 INFO Executor: Running task 191.0 in stage 3.0 (TID 401)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 191.0 in stage 3.0 (TID 401). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 192.0 in stage 3.0 (TID 402, localhost, partition 192, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 191.0 in stage 3.0 (TID 401) in 19 ms on localhost (194/200)
+18/08/20 07:08:23 INFO Executor: Running task 192.0 in stage 3.0 (TID 402)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 190.0 in stage 3.0 (TID 400). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 195.0 in stage 3.0 (TID 403, localhost, partition 195, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 190.0 in stage 3.0 (TID 400) in 33 ms on localhost (195/200)
+18/08/20 07:08:23 INFO Executor: Running task 195.0 in stage 3.0 (TID 403)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+18/08/20 07:08:23 INFO Executor: Finished task 192.0 in stage 3.0 (TID 402). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 196.0 in stage 3.0 (TID 404, localhost, partition 196, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 192.0 in stage 3.0 (TID 402) in 24 ms on localhost (196/200)
+18/08/20 07:08:23 INFO Executor: Running task 196.0 in stage 3.0 (TID 404)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 196.0 in stage 3.0 (TID 404). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO Executor: Finished task 195.0 in stage 3.0 (TID 403). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 197.0 in stage 3.0 (TID 405, localhost, partition 197, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 196.0 in stage 3.0 (TID 404) in 22 ms on localhost (197/200)
+18/08/20 07:08:23 INFO Executor: Running task 197.0 in stage 3.0 (TID 405)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 198.0 in stage 3.0 (TID 406, localhost, partition 198, ANY, 5272 bytes)
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 195.0 in stage 3.0 (TID 403) in 47 ms on localhost (198/200)
+18/08/20 07:08:23 INFO Executor: Running task 198.0 in stage 3.0 (TID 406)
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Getting 7 non-empty blocks out of 7 blocks
+18/08/20 07:08:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:23 INFO Executor: Finished task 198.0 in stage 3.0 (TID 406). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 198.0 in stage 3.0 (TID 406) in 14 ms on localhost (199/200)
+18/08/20 07:08:23 INFO Executor: Finished task 197.0 in stage 3.0 (TID 405). 3185 bytes result sent to driver
+18/08/20 07:08:23 INFO TaskSetManager: Finished task 197.0 in stage 3.0 (TID 405) in 27 ms on localhost (200/200)
+18/08/20 07:08:23 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+18/08/20 07:08:23 INFO DAGScheduler: ShuffleMapStage 3 (csv at RunAverageDuration.java:160) finished in 2.433 s
+18/08/20 07:08:23 INFO DAGScheduler: looking for newly runnable stages
+18/08/20 07:08:23 INFO DAGScheduler: running: Set()
+18/08/20 07:08:23 INFO DAGScheduler: waiting: Set(ResultStage 4)
+18/08/20 07:08:23 INFO DAGScheduler: failed: Set()
+18/08/20 07:08:23 INFO DAGScheduler: Submitting ResultStage 4 (CoalescedRDD[26] at csv at RunAverageDuration.java:160), which has no missing parents
+18/08/20 07:08:23 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 65.0 KB, free 810.2 MB)
+18/08/20 07:08:23 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 25.2 KB, free 810.2 MB)
+18/08/20 07:08:23 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 192.168.0.12:52213 (size: 25.2 KB, free: 810.5 MB)
+18/08/20 07:08:23 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1012
+18/08/20 07:08:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (CoalescedRDD[26] at csv at RunAverageDuration.java:160)
+18/08/20 07:08:23 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks
+18/08/20 07:08:23 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 407, localhost, partition 0, ANY, 10699 bytes)
+18/08/20 07:08:23 INFO Executor: Running task 0.0 in stage 4.0 (TID 407)
+18/08/20 07:08:23 INFO deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+18/08/20 07:08:23 INFO deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+18/08/20 07:08:23 INFO deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+18/08/20 07:08:23 INFO DefaultWriterContainer: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO CodeGenerator: Code generated in 14.157284 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 7 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 10 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 200 blocks
+18/08/20 07:08:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+18/08/20 07:08:24 INFO FileOutputCommitter: Saved output of task 'attempt_201808200708_0004_m_000000_0' to hdfs://192.168.0.12:8020/user/cloudera/outputdata1/_temporary/0/task_201808200708_0004_m_000000
+18/08/20 07:08:24 INFO SparkHadoopMapRedUtil: attempt_201808200708_0004_m_000000_0: Committed
+18/08/20 07:08:24 INFO Executor: Finished task 0.0 in stage 4.0 (TID 407). 3110 bytes result sent to driver
+18/08/20 07:08:24 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 407) in 1101 ms on localhost (1/1)
+18/08/20 07:08:24 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+18/08/20 07:08:24 INFO DAGScheduler: ResultStage 4 (csv at RunAverageDuration.java:160) finished in 1.093 s
+18/08/20 07:08:24 INFO DAGScheduler: Job 1 finished: csv at RunAverageDuration.java:160, took 3.645545 s
+18/08/20 07:08:25 INFO DefaultWriterContainer: Job job_201808200703_0000 committed.
+Processing has been completed. Please verify the output in hdfs://192.168.0.12:8020/user/cloudera/outputdata1
+18/08/20 07:08:25 INFO SparkContext: Invoking stop() from shutdown hook
+18/08/20 07:08:25 INFO SparkUI: Stopped Spark web UI at http://192.168.0.12:4040
+18/08/20 07:08:25 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/08/20 07:08:25 INFO MemoryStore: MemoryStore cleared
+18/08/20 07:08:25 INFO BlockManager: BlockManager stopped
+18/08/20 07:08:25 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/08/20 07:08:25 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/08/20 07:08:25 INFO SparkContext: Successfully stopped SparkContext
+18/08/20 07:08:25 INFO ShutdownHookManager: Shutdown hook called
+18/08/20 07:08:25 INFO ShutdownHookManager: Deleting directory /tmp/spark-3f1ad7aa-1519-4351-96de-edcbde0fd73b

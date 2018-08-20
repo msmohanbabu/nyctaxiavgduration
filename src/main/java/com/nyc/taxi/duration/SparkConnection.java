@@ -1,4 +1,3 @@
-
 package com.nyc.taxi.duration;
 
 import org.apache.spark.api.java.JavaSparkContext;
@@ -9,7 +8,13 @@ import java.util.List;
 
 import org.apache.spark.SparkConf;
 
-public class SparkConnection  {
+/***
+ * 
+ * @author Mohan MS
+ *
+ */
+
+public class SparkConnection {
 
 	private static String appName = "AvgDuration";
 	private static String sparkMaster = "local[2]";
@@ -26,7 +31,7 @@ public class SparkConnection  {
 					sparkMaster);
 
 			System.setProperty("hadoop.home.dir", "//usr//lib//hadoop");
-			
+
 			spContext = new JavaSparkContext(conf);
 
 			// Create Spark Session from configuration
@@ -37,9 +42,9 @@ public class SparkConnection  {
 		}
 
 	}
-	
+
 	public static JavaSparkContext getContext() {
-		if(spContext == null){
+		if (spContext == null) {
 			getConnection();
 		}
 		return spContext;

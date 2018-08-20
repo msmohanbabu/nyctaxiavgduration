@@ -1,4 +1,3 @@
-//Processing the data
 package com.nyc.taxi.duration;
 
 import java.text.ParseException;
@@ -11,15 +10,19 @@ import org.apache.spark.sql.AnalysisException;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.RowFactory;
+import org.apache.spark.sql.functions;
 
 import scala.Serializable;
 import static org.apache.spark.sql.functions.*;
 
+/***
+ * 
+ * @author Mohan MS
+ *
+ */
 
 public class RunAverageDuration implements Serializable {
 
-	private static SimpleDateFormat dateFormat = new SimpleDateFormat(
-			"yyyy-MM-dd HH:mm:ss");
 	private Date pickUpTimestamp;
 	private Date dropTimestamp;
 	private JavaRDD<Row> taxiRDD;
@@ -33,48 +36,45 @@ public class RunAverageDuration implements Serializable {
 		return dropTimestamp;
 	}
 
-	
-
+/****
+ * @param  Dataset<Row> 
+ * @return JavaRDD<Row>
+ * @throws NoSuchFieldException
+ * @throws IllegalArgumentException
+ * @throws ParseException
+ * Select the data needed for average calculation
+ */
 	public static JavaRDD<Row> selectData(Dataset<Row> origData)
 			throws NoSuchFieldException, IllegalArgumentException,
 			ParseException {
 
-		JavaRDD<Row> filterRDD = origData.toJavaRDD().map(new Function<Row, Row>() {
+		JavaRDD<Row> filterRDD = origData.toJavaRDD().map(
+				new Function<Row, Row>() {
 
-			@Override
-			public Row call(Row record) throws Exception {
-				Row filteredRow = RowFactory.create(String.valueOf(record
-						.<String> getAs("PICKUPLOCATION")), Long
-						.valueOf(dateFormat.parse(record.getAs("DROPTIME"))
-								.getTime()
-								- dateFormat.parse(record.getAs("PICKTIME"))
-										.getTime()));
-				return filteredRow;
+					@Override
+					public Row call(Row record) throws Exception {
+						Row filteredRow = RowFactory.create(
+								String.valueOf(record.getAs("PICKUPLOCATION")), 
+								String.valueOf(
+										 new SimpleDateFormat(CommonUtils.dateFormat)
+										     .parse(record.getAs("DROPTIME"))
+										     .getTime() -
+										 new SimpleDateFormat(CommonUtils.dateFormat)
+										     .parse(record.getAs("PICKTIME"))
+											 .getTime()));
+						return filteredRow;
 
-			}
-		});
+					}
+				});
 
 		return filterRDD;
 	}
-
-//	AverageCalculation - Calculate 
-	public static Dataset<Row> AverageCalculation(Dataset<Row> filterDF)
-			throws NoSuchFieldException {
-
-		Dataset<Row> finalData = filterDF.groupBy("PICKUPLOCATION")
-				.agg(avg(filterDF.col("DURATION").as("AVERAGE")))
-				.orderBy("PICKUPLOCATION");
-
-		return finalData;
-
-	}
-
-	public static void writeAsCSV(Dataset<Row> finalDF, String OutCSV)
-			throws AnalysisException {
-
-		finalDF.coalesce(1).write().option("header", true).csv(OutCSV);
-
-	}
+/****
+ * 
+ * @param Dataset<Row>
+ * @return JavaRDD<Row> 
+ * Filter the Dataframe - Data Cleansing - Validate the data needed for processing
+ */
 
 	public static JavaRDD<Row> filterDataFrame(Dataset<Row> modifiedDF) {
 		JavaRDD<Row> taxiRDDModified = modifiedDF.toJavaRDD().map(
@@ -83,25 +83,25 @@ public class RunAverageDuration implements Serializable {
 					@Override
 					public Row call(Row record) throws Exception {
 
-						String columnError = "VALID";
+						String columnError = "YES";
 						String columnValue = null;
 
-						if (!DataSchema.isTimeStampValid(record
-								.<String> getAs("PICKTIME"))) {
-							columnError = null;
-							columnValue = record.<String> getAs("PICKTIME");
+						if (DataSchema.isTimeStampValid(String.valueOf(record
+								       .getAs("PICKTIME"))) == false) {
+							columnError = "NO";
+							columnValue = String.valueOf(record.getAs("PICKTIME"));
 						}
-						if (!DataSchema.isTimeStampValid(record
-								.<String> getAs("DROPTIME"))) {
-							columnError = null;
-							columnValue = record.<String> getAs("PICKTIME");
+						if (DataSchema.isTimeStampValid(String.valueOf(record
+								       .getAs("DROPTIME"))) == false) {
+							columnError = "NO";
+							columnValue = String.valueOf(record.getAs("DROPTIME"));
 						}
-						if (record.<String> getAs("PICKUPLOCATION") == null
-								|| record.<String> getAs("PICKUPLOCATION") == "") {
-							columnError = null;
-							columnValue = record
-									.<String> getAs("PICKUPLOCATION");
+						if (record.getAs("PICKUPLOCATION") == null
+								|| record.getAs("PICKUPLOCATION") == "") {
+							columnError = "NO";
+							columnValue = String.valueOf(record.getAs("PICKUPLOCATION"));
 						}
+						
 						Row retRecord = RowFactory.create(
 								String.valueOf(record.getString(0)),
 								String.valueOf(record.getString(1)),
@@ -127,6 +127,38 @@ public class RunAverageDuration implements Serializable {
 					}
 				});
 		return taxiRDDModified;
+	}
+/**
+ * 
+ * @param Dataset<Row>
+ * @return Dataset<Row>
+ * @throws NoSuchFieldException
+ * Calculate Average using Spark class Function.avg
+ */
+	
+	public static Dataset<Row> AverageCalculation(Dataset<Row> filterDF)
+			throws NoSuchFieldException {
+
+		Dataset<Row> finalData = filterDF.groupBy("PICKUPLOCATION")
+				.agg(functions.avg(filterDF.col("DURATION").as("AVERAGE")))
+				.orderBy("PICKUPLOCATION");
+
+		return finalData;
+
+	}
+
+/***
+ * 
+ * @param Dataset<Row>
+ * @param OutputPath 
+ * @throws AnalysisException
+ */
+
+	public static void writeAsCSV(Dataset<Row> finalDF, String OutCSV)
+			throws AnalysisException {
+
+		finalDF.coalesce(1).write().option("header", true).csv(OutCSV);
+
 	}
 
 }

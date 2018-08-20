@@ -14,12 +14,17 @@ import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructField;
 import org.apache.spark.sql.types.StructType;
 
+/***
+ * 
+ * @author Mohan MS
+ *
+ */
+
 public class DataSchema {
 
-	private static SimpleDateFormat dateFormat = new SimpleDateFormat(
-			"yyyy-MM-dd HH:mm:ss");
-
-	//Original Scheme
+/***
+ * Original Schema
+ */
 	private static StructType nycSchema = DataTypes
 			.createStructType(new StructField[] {
 					DataTypes.createStructField("VENDOR ID",
@@ -42,29 +47,34 @@ public class DataSchema {
 							DataTypes.StringType, false),
 					DataTypes.createStructField("PAYTYPE",
 							DataTypes.StringType, false),
-					DataTypes.createStructField("FARE", 
-							DataTypes.StringType,false),
-					DataTypes.createStructField("EXTRA", 
-							DataTypes.StringType,false),
-					DataTypes.createStructField("TAX", 
-							DataTypes.StringType,false),
+					DataTypes.createStructField("FARE", DataTypes.StringType,
+							false),
+					DataTypes.createStructField("EXTRA", DataTypes.StringType,
+							false),
+					DataTypes.createStructField("TAX", DataTypes.StringType,
+							false),
 					DataTypes.createStructField("TIPAMOUNT",
 							DataTypes.StringType, false),
-					DataTypes.createStructField("TOLL", 
-							DataTypes.StringType,false),
+					DataTypes.createStructField("TOLL", DataTypes.StringType,
+							false),
 					DataTypes.createStructField("SURCHARGE",
 							DataTypes.StringType, false),
-					DataTypes.createStructField("TOTAL", 
-							DataTypes.StringType,false) });
-    //Final Scheme
+					DataTypes.createStructField("TOTAL", DataTypes.StringType,
+							false) });
+
+/***
+ * Final Schema
+ */
 	private static StructType finalSchema = DataTypes
 			.createStructType(new StructField[] {
 					DataTypes.createStructField("PICKUPLOCATION",
 							DataTypes.StringType, false),
-					DataTypes.createStructField("DURATION", 
-							DataTypes.LongType,
-							false) });
-   //Modify Scheme to filter invalid data.
+					DataTypes.createStructField("DURATION",
+							DataTypes.StringType, false) });
+
+/***
+ * Schema to transform and filter RDD 
+ */
 	private static StructType modifiedSchema = nycSchema.add("ERROR_COLUMN",
 			DataTypes.StringType, true).add("ERROR_VALUE",
 			DataTypes.StringType, true);
@@ -89,18 +99,23 @@ public class DataSchema {
 	public static JavaRDD<Row> rowToRdd(Dataset<Row> rawSchema) {
 		return (rawSchema.toJavaRDD());
 	}
+/*
+ * 
+ * @param timeStampToValidate
+ * @return
+ */
 
 	public static boolean isTimeStampValid(String timeStampToValidate) {
-		if (timeStampToValidate == null) {
+		if (timeStampToValidate == null || timeStampToValidate == "") {
 			return false;
 		}
-		dateFormat.setLenient(false);
-
 		try {
-			dateFormat.parse(timeStampToValidate);
+			new SimpleDateFormat(CommonUtils.dateFormat)
+					.parse(timeStampToValidate);
 			return true;
 		} catch (ParseException e) {
 			return false;
+
 		}
 
 	}
