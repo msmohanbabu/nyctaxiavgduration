@@ -14,3 +14,4 @@ com.nyc.taxi.duration.AverageTuple - Involved more JavaRDD to calculate average.
 
 Note: Coded and tested in cloudera CDH 5.13
 
+Spark 2.0 and Hadoop 2.6(Cloudera)
